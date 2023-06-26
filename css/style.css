@@ -34,6 +34,8 @@ header {
   align-items: center;
   height: 80px;
   padding: 0.2rem;
+  position: fixed;
+  background-color: white;
 }
 
 nav a {
