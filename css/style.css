@@ -15,6 +15,7 @@ body {
 
 .container {
   width: 1180px;
+  margin: auto;
 }
 
 .container-large {
@@ -54,4 +55,10 @@ nav a {
 
 .start {
   color: white;
+}
+
+/* MAIN */
+
+.hero {
+  background-color: #b4d0e7;
 }
