@@ -24,6 +24,13 @@ body {
 
 .blue-button {
   background-color: #0061ff;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+}
+
+.blue-button a {
+  color: white;
+  text-decoration: none;
 }
 
 /* HEADER */
@@ -33,7 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0.2rem;
+  padding: 0.6rem;
   position: fixed;
   background-color: white;
 }
@@ -50,21 +57,51 @@ nav a {
   padding: 0 0.5rem;
 }
 
-.nav-list > li {
-  padding: 0.5rem 1.2rem;
+.nav-list-item {
+  padding: 0 1.5rem;
   font-size: 0.95rem;
-}
-
-.start {
-  color: white;
 }
 
 /* MAIN */
 
 .hero {
   background-color: #b4d0e7;
+  padding-top: 160px;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+
+.hero-col {
+  display: flex;
+}
+
+.hero-col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% / 3);
+}
+
+.hero-col-1 > span {
+  display: inline-block;
+  width: fit-content;
+}
+
+.down-arrow {
+  display: inline-block;
+  font-size: 3.5rem;
+  margin: 4rem 0 1.7rem 0rem;
+}
+
+.hero-col-2 {
+  width: calc((2 / 3) * 100%);
+}
+
+.hero-col-2 > img {
+  height: auto;
+  max-width: 100%;
 }
