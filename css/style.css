@@ -7,6 +7,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: white;
 }
 
 .container-small {
@@ -24,8 +25,8 @@ body {
 
 .blue-button {
   background-color: #0061ff;
-  padding: 0.5rem 1.2rem;
-  font-size: 0.95rem;
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
 }
 
 .blue-button a {
@@ -40,7 +41,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0.6rem;
+  padding: 0.5rem;
   position: fixed;
   background-color: white;
 }
