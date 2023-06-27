@@ -147,3 +147,19 @@ h2 {
   border-radius: 50%;
   border: 2px solid #d6d6d9;
 }
+
+.detailed-plan.row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.business-col {
+  width: calc((100% / 3) - 2rem);
+  background-color: blue;
+}
+
+.business-col-1 {
+  width: 100%;
+  background-color: blue;
+}
