@@ -10,6 +10,7 @@ body {
 
 .container-small {
   width: 1000px;
+  margin: auto;
 }
 
 .container {
@@ -68,6 +69,8 @@ nav a {
 
 /* MAIN */
 
+/* HERO */
+
 .hero {
   background-color: #b4d0e7;
   padding-top: 160px;
@@ -102,4 +105,18 @@ h1 {
 
 .hero-col-2 > img {
   max-width: 100%;
+}
+
+/* BUSINESS PLAN */
+
+.row {
+  display: flex;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.business-plan {
+  padding-top: 5rem;
 }
