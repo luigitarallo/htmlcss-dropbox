@@ -29,10 +29,11 @@ body {
 }
 
 .blue-button {
+  display: inline-block;
   background-color: #0061ff;
-  padding: 0.7rem 0.8rem;
   font-size: 1rem;
   color: white;
+  text-align: center;
 }
 
 /* HEADER */
@@ -119,6 +120,8 @@ h2 {
   font-size: 2.5rem;
 }
 
+/* BILLING OPTION */
+
 .business-plan {
   padding-top: 5rem;
 }
@@ -148,6 +151,8 @@ h2 {
   border: 2px solid #d6d6d9;
 }
 
+/* BUSINESS CARD */
+
 .detailed-plan.row {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -156,12 +161,14 @@ h2 {
 
 .business-col {
   width: calc((100% / 3) - 2rem);
-  border: 1px solid #d6d6d9;
 }
 
 .business-col-1 {
   width: 100%;
-  border-bottom: 1px solid #d6d6d9;
+}
+
+.card {
+  border: 1px solid #d6d6d9;
 }
 
 .card-header {
@@ -173,14 +180,53 @@ h2 {
 .plan-details {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding: 2rem;
 }
 
-.plan-function {
-  list-style-type: none;
-  padding: 1rem 0;
+.plan-price {
+  margin-bottom: 1rem;
 }
 
 .plan-price > h3 {
   margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.fa-ul {
+  margin-left: var(--fa-li-margin, 1.5rem);
+}
+
+.plan-function {
+  padding: 1rem 0;
+}
+
+.plan-function li {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.price {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.time {
+  color: #797675;
+  font-size: 0.9rem;
+}
+
+.buy-section {
+  margin-top: 1rem;
+}
+
+.buy-section .blue-button {
+  width: 100%;
+}
+
+.buy-section > span {
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 2rem 0;
 }
