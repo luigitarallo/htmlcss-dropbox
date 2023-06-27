@@ -5,9 +5,7 @@
 }
 
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container-small {
@@ -23,15 +21,17 @@ body {
   width: 100%;
 }
 
+.button {
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
 .blue-button {
   background-color: #0061ff;
   padding: 0.7rem 0.8rem;
   font-size: 1rem;
-}
-
-.blue-button a {
   color: white;
-  text-decoration: none;
 }
 
 /* HEADER */
@@ -55,12 +55,15 @@ nav a {
   display: flex;
   list-style: none;
   align-items: center;
-  padding: 0 0.5rem;
 }
 
 .nav-list-item {
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   font-size: 0.95rem;
+}
+
+.nav-list-item .button {
+  padding: 0.3rem 0.8rem;
 }
 
 /* MAIN */
@@ -83,19 +86,14 @@ h1 {
 .hero-col-1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-start;
   width: calc(100% / 3);
+  gap: 30px;
 }
 
-.hero-col-1 > span {
-  display: inline-block;
-  width: fit-content;
-}
-
-.down-arrow {
-  display: inline-block;
+.icon-arrow {
   font-size: 3.5rem;
-  margin: 4rem 0 1.7rem 0rem;
+  margin-top: auto;
 }
 
 .hero-col-2 {
@@ -103,6 +101,5 @@ h1 {
 }
 
 .hero-col-2 > img {
-  height: auto;
   max-width: 100%;
 }
