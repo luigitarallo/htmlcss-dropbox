@@ -44,6 +44,8 @@ header {
   height: 80px;
   padding: 0.5rem;
   position: fixed;
+  top: 0;
+  right: 0;
   background-color: white;
 }
 
@@ -119,4 +121,29 @@ h2 {
 
 .business-plan {
   padding-top: 5rem;
+}
+
+.billing {
+  margin: 4rem 0;
+}
+
+.billing-option {
+  display: inline-block;
+  margin-right: 3rem;
+}
+
+.rounded-selector-blue {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 5px solid #0061ff;
+}
+
+.rounded-selector {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid grey;
 }
