@@ -9,12 +9,12 @@ body {
 }
 
 .container-small {
-  width: 1000px;
+  width: 66rem;
   margin: auto;
 }
 
 .container {
-  width: 1180px;
+  width: 1400px;
   margin: auto;
 }
 
@@ -47,6 +47,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+  left: 0;
   background-color: white;
 }
 
@@ -70,6 +71,28 @@ nav a {
   padding: 0.3rem 0.8rem;
 }
 
+/* UTILS */
+
+.title-1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  padding-bottom: 4rem;
+}
+
+.title-2 {
+  font-size: 2.5rem;
+}
+
+.title-3 {
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.title-4 {
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
 /* MAIN */
 
 /* HERO */
@@ -77,12 +100,6 @@ nav a {
 .hero {
   background-color: #b4d0e7;
   padding-top: 160px;
-}
-
-h1 {
-  font-size: 4.5rem;
-  font-weight: 900;
-  margin-bottom: 4rem;
 }
 
 .hero-col {
@@ -116,10 +133,6 @@ h1 {
   display: flex;
 }
 
-h2 {
-  font-size: 2.5rem;
-}
-
 /* BILLING OPTION */
 
 .business-plan {
@@ -127,12 +140,12 @@ h2 {
 }
 
 .billing {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 .billing-option {
   display: inline-block;
-  margin-right: 3rem;
+  padding-right: 3rem;
 }
 
 .rounded-selector-blue {
@@ -184,12 +197,7 @@ h2 {
 }
 
 .plan-price {
-  margin-bottom: 1rem;
-}
-
-.plan-price > h3 {
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  padding-bottom: 1rem;
 }
 
 .fa-ul {
@@ -198,16 +206,17 @@ h2 {
 
 .plan-function {
   padding: 1rem 0;
+  font-size: 0.85rem;
 }
 
 .plan-function li {
-  margin-bottom: 1rem;
-  font-size: 0.85rem;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
 }
 
 .price {
   display: block;
-  margin-bottom: 0.8rem;
+  padding-bottom: 0.8rem;
   font-weight: 900;
   font-size: 0.9rem;
 }
@@ -218,7 +227,7 @@ h2 {
 }
 
 .buy-section {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .buy-section .blue-button {
@@ -237,7 +246,9 @@ h2 {
   margin: 2rem 0;
 }
 
-h4 {
-  font-size: 0.9rem;
-  margin: 1rem 0;
+.plan-details-1 {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
