@@ -228,5 +228,16 @@ h2 {
 .buy-section > span {
   display: inline-block;
   font-size: 0.9rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
+}
+
+.line {
+  border: 1px solid #d6d6d9;
+  width: 3rem;
+  margin: 2rem 0;
+}
+
+h4 {
+  font-size: 0.9rem;
+  margin: 1rem 0;
 }
