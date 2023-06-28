@@ -266,6 +266,10 @@ nav a {
 
 /* DROPBOX PARTNER */
 
+.dropbox-partner {
+  padding: 5rem 0;
+}
+
 .partner-col {
   width: 60%;
 }
@@ -275,10 +279,12 @@ nav a {
   padding: 4rem;
 }
 
-.dropbox-partner {
-  padding: 5rem 0;
-}
-
 .partner-col-1 > a {
   margin-top: 2rem;
+}
+
+/* BUSINESS OPERATIONS */
+
+.business-operation {
+  padding: 5rem 0;
 }
