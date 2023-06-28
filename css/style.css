@@ -278,3 +278,7 @@ nav a {
 .dropbox-partner {
   padding: 5rem 0;
 }
+
+.partner-col-1 > a {
+  margin-top: 2rem;
+}
