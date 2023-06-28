@@ -300,3 +300,18 @@ nav a {
   flex-direction: column;
   width: calc((100% / 3) - 2rem);
 }
+
+/* DROPBOX TEAM */
+
+.dropbox-team {
+  padding: 5rem 0;
+}
+
+.dropbox-team .title-2 {
+  width: 60%;
+  padding: 4rem 0;
+}
+
+.dropbox-team a {
+  color: #0061ff;
+}
