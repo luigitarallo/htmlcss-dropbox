@@ -288,3 +288,15 @@ nav a {
 .business-operation {
   padding: 5rem 0;
 }
+
+.operations-cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+.operation-card {
+  flex-direction: column;
+  width: calc((100% / 3) - 2rem);
+}
