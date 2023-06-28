@@ -8,6 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container-small {
   width: 66rem;
   margin: auto;
@@ -121,10 +125,6 @@ nav a {
 
 .hero-col-2 {
   width: calc((2 / 3) * 100%);
-}
-
-.hero-col-2 > img {
-  max-width: 100%;
 }
 
 /* BUSINESS PLAN */
@@ -253,4 +253,14 @@ nav a {
   padding: 2rem;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+/* DROPBOX PARTNER */
+
+.partner-col {
+  width: 60%;
+}
+
+.partner-col-1 {
+  width: 40%;
 }
