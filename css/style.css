@@ -13,7 +13,7 @@ img {
 }
 
 .container-small {
-  width: 66rem;
+  width: 1100px;
   margin: auto;
 }
 
@@ -133,11 +133,11 @@ nav a {
   display: flex;
 }
 
-/* BILLING OPTION */
-
 .business-plan {
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
+
+/* BILLING OPTION */
 
 .billing {
   padding: 4rem 0;
@@ -263,4 +263,9 @@ nav a {
 
 .partner-col-1 {
   width: 40%;
+  padding: 4rem;
+}
+
+.dropbox-partner {
+  padding: 5rem 0;
 }
