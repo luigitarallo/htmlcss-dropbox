@@ -245,6 +245,10 @@ nav a {
   width: 100%;
 }
 
+.buy-section a:not(.button) {
+  color: #0061ff;
+}
+
 .buy-section > span {
   display: inline-block;
   font-size: 0.9rem;
@@ -320,4 +324,75 @@ nav a {
 
 .company-col {
   width: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-box {
+  aspect-ratio: 1 / 1;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-box > img {
+  width: 50%;
+  filter: invert(100%);
+}
+
+.designit {
+  background-color: #a2d39b;
+}
+
+.asu {
+  background-color: #61082b;
+}
+
+.uf {
+  background-color: #0093ce;
+}
+
+.topps {
+  background-color: #ff1c1c;
+}
+
+.wbr {
+  background-color: #d5001f;
+}
+
+.hc {
+  background-color: #b4d0e7;
+}
+
+.lp {
+  background-color: #0d2481;
+}
+
+.cco {
+  background-color: #ffd830;
+}
+
+.company-feedback.row {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.company-feedback {
+  padding: 3rem;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.logo-company > img {
+  width: 50%;
+}
+
+.company-feedback .line {
+  width: 6rem;
+}
+
+/* DROPBOX CLAIM */
+
+.dopbox-claim .container-small {
+  justify-content: space-between;
 }
