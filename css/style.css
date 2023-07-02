@@ -29,9 +29,8 @@ img {
 }
 
 .title-1 {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 900;
-  padding-bottom: 4rem;
 }
 
 .title-2 {
@@ -83,6 +82,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1;
   background-color: white;
 }
 
@@ -129,11 +129,16 @@ nav a {
 
 .icon-arrow {
   font-size: 3.5rem;
+  margin-bottom: 5rem;
   margin-top: auto;
 }
 
 .hero-col-2 {
   width: calc((2 / 3) * 100%);
+}
+
+.hero-col {
+  transform: translateY(16%);
 }
 
 /* BUSINESS PLAN */
@@ -143,7 +148,7 @@ nav a {
 }
 
 .business-plan {
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 
 /* BILLING OPTION */
@@ -308,7 +313,8 @@ nav a {
 /* DROPBOX TEAM */
 
 .dropbox-team {
-  padding: 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
 .dropbox-team .title-2 {
@@ -342,6 +348,7 @@ nav a {
 
 .designit {
   background-color: #a2d39b;
+  border: 15px solid #d1e9cd;
 }
 
 .asu {
@@ -391,8 +398,102 @@ nav a {
   width: 6rem;
 }
 
+.lead-sign {
+  padding-top: 3rem;
+}
+
 /* DROPBOX CLAIM */
 
-.dopbox-claim .container-small {
+.dropbox-in {
+  background-color: #b4d0e7;
+}
+
+.claim {
   justify-content: space-between;
+  padding: 7rem 0;
+}
+
+.col-claim {
+  width: 50%;
+  color: #61082b;
+}
+
+.col-claim-1 {
+  width: 30%;
+}
+
+.col-claim-1 a {
+  border: none;
+  width: 100%;
+}
+
+/* FAQ */
+
+.faq-section {
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+}
+
+.faq-quest {
+  display: inline-block;
+}
+
+.faq-arrow {
+  display: inline-block;
+}
+
+.faq-col {
+  justify-content: space-between;
+  align-items: center;
+  line-height: 5rem;
+  padding-right: 2rem;
+}
+
+.faq-col.bordered {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.faq-section h2 {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+/* FOOTER */
+
+.footer-section {
+  background-color: black;
+  color: white;
+}
+
+.foot-cards {
+  padding: 6rem 0;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.foot-col ul {
+  list-style: none;
+}
+
+.foot-col li {
+  padding: 0.5rem 0;
+}
+
+.foot-col a {
+  text-decoration: none;
+  color: white;
+}
+
+.language {
+  height: 2rem;
+  width: 10%;
+  color: #999999;
+  border-top: 1px solid white;
+  margin-bottom: 3rem;
+}
+
+.language {
+  display: inline-block;
+  padding: 3rem 0;
 }
