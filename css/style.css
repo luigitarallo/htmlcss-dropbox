@@ -148,7 +148,7 @@ nav a {
 }
 
 .business-plan {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
 /* BILLING OPTION */
@@ -276,7 +276,7 @@ nav a {
 /* DROPBOX PARTNER */
 
 .dropbox-partner {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .partner-col {
@@ -313,8 +313,8 @@ nav a {
 /* DROPBOX TEAM */
 
 .dropbox-team {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 }
 
 .dropbox-team .title-2 {
@@ -430,8 +430,8 @@ nav a {
 /* FAQ */
 
 .faq-section {
-  padding-top: 6rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
 
 .faq-quest {
