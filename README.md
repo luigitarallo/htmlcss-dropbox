@@ -1,10 +1,10 @@
 # DROPBOX
 
-Replica della pagina principale di Dropbox
+Replica of a page from the Dropbox website
 
-_Tra i primi esercizi svolti durante il corso di Boolean_
+_The first exercises of the Boolean course_
 
-## Tecnologie e librerie utilizzate
+## Technologies and Libraries
 
 - HTML
 - CSS
