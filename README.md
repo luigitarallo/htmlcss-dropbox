@@ -10,4 +10,4 @@ Replica della pagina principale di Dropbox
 
 ## ScreenShot
 
-[Immagine](/img/dropbox-result.png)
+[](/img/dropbox-result.png)
