@@ -91,6 +91,10 @@ nav a {
   color: black;
 }
 
+.logo {
+  margin-left: 15px;
+}
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -105,8 +109,9 @@ nav a {
 .nav-list-item .button {
   padding: 0.3rem 0.8rem;
 }
-
+/*********/
 /* MAIN */
+/*******/
 
 /* HERO */
 
